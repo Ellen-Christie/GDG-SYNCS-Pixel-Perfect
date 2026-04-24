@@ -1,0 +1,24 @@
+html {
+    background-color: #000751;
+    color: #FFFFFF;
+}
+.spotlight {
+    position: fixed;
+    inset: 0;
+    background-image: radial-gradient(circle at var(--MouseX, 50%) var(--MouseY, 50%), transparent 6em, black 8em);
+    pointer-events: none;
+}
+
+@cursive {
+    font-family: cursive;
+    src: url(BibliophileScript-Regular-D8DTnNEq.ttf);
+}
+
+@non-cursive {
+    font-family: non-cursive;
+    src: url(ZTBrosOskon90s-Regular-CROKvpw6.otf);
+}
+
+h1, h2 {
+    font-family: non-cursive;
+}
